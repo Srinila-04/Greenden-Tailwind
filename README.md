@@ -1,6 +1,6 @@
 # GreenDen
 
-![GreenDen Logo](path_to_your_logo_image) <!-- Optional: Add a logo for your project -->
+
 
 ## Description
 
