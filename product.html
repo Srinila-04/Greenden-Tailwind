@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-100 p-4 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-3xl">Greenden</h1>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="25" height="25" class="size-4 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline  hover:text-black" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black" href="./product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--About Section-->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-10">Our Products!!</h1> 
+    <div class="flex items-center justify-center mt-5">
+        <input type="text" placeholder="Search for a product..." class="border border-black p-3 m-3" style="width: 80%;">
+    </div>  
+    </section>  
+
+    <!--Product Images-->
+    <section class="p-4">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-7 gap-5">
+            <!--First row-->
+            <div class="flex flex-col items-center">
+                <img src="/Images/best seller__1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 shadow-xl border border-black 2px" alt="Rose Plant">
+                <h1>Rose Plant</h1>
+                <p>$20</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="/Images/best seller__2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 shadow-xl border border-black 2px" alt=" Plant">
+                <h1>Tulip Plant</h1>
+                <p>$20</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="/Images/best seller__3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 shadow-xl border border-black 2px" alt="Rose Plant">
+                <h1>Sunflower Plant</h1>
+                <p>$20</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="/Images/best seller__4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 shadow-xl border border-black 2px" alt="Rose Plant">
+                <h1>Snake Plant</h1>
+                <p>$20</p>
+            </div>   
+            <!--Second Row-->
+            <div class="flex flex-col items-center">
+                    <img src="./Images/best__seller5.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 shadow-xl border border-black 2px" alt="Rose Plant">
+                    <h1>Marie Gold</h1>
+                    <p>$20</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="./Images/best__seller__6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 shadow-xl border border-black 2px" alt="Rose Plant">
+                <h1>Floral Plant</h1>
+                <p>$20</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="./Images/best__seller__7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 shadow-xl border border-black 2px" alt="Rose Plant">
+                <h1>Marie Gold </h1>
+                <p>$20</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="./Images/best__seller__8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 shadow-xl border border-black 2px" alt="Rose Plant">
+                <h1>Floral Pot</h1>
+                <p>$20</p>
+            </div>
+    </section>
+
+    <!--Footer-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, dolor?</p>
+        <p>@ 2021 Greenden.com</p>
+    </section>
+</body>
+</html>

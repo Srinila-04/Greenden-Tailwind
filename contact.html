@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-100 p-4 flex items-center justify-between shadow-xl sticky top-0 z-15 mt-12">
+        <h1 class="text-3xl">Greenden</h1>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="25" height="25" class="size-4 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline  hover:text-black" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black" href="./product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--contact form-->
+    <div class="bg-white mt-10">
+        <header class="bg-green-700 text-white text-center py-1 flex items-center justify-center">
+          <h1 class="text-4xl font-bold mt-15 ">Contact Us</h1>
+        </header>
+        <section class="text-center py-12 px-4">
+          <h2 class="text-2xl font-bold">Get In Touch</h2>
+          <p class="mt-4 text-gray-700 max-w-2xl mx-auto">We are here to help you. Reach out to us via any of the following methods.</p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 animate-fadeIn">
+            <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
+              <h3 class="text-xl font-bold">Call Us</h3>
+              <p class="text-gray-700 mt-2">+1 123 456 7890</p>
+            </div>
+            <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
+              <h3 class="text-xl font-bold">Email Us</h3>
+              <p class="text-gray-700 mt-2">contact@wisedoctors.com</p>
+            </div>
+            <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
+              <h3 class="text-xl font-bold">Visit Us</h3>
+              <p class="text-gray-700 mt-2">123 Health St, Wellness City</p>
+            </div>
+          </div>
+        </section>
+        <section class="bg-gray-100 py-12 px-4">
+          <h2 class="text-2xl font-bold text-center">Send Us A Message</h2>
+          <form class="max-w-2xl mx-auto mt-8 space-y-8">
+            <div>
+              <label htmlFor="name" class="block text-gray-700 font-bold">Name</label>
+              <input type="text" id="name" class="w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition" />
+            </div>
+            <div>
+              <label htmlFor="email" class="block text-gray-700 font-bold">Email</label>
+              <input type="email" id="email" class="w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition" />
+            </div>
+            <div>
+              <label htmlFor="message" class="block text-gray-700 font-bold">Message</label>
+              <textarea id="message" rows="5" class="w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-green-700 text-white py-3 rounded-lg shadow-lg hover:bg-green-600 transition-colors">Send Message</button>
+          </form>
+        </section>
+        <section class="text-center py-12 px-4">
+          <h2 class="text-2xl font-bold">Frequently Asked Questions</h2>
+          <div class="mt-8">
+            <div class="p-4 border rounded-lg shadow-md transition transform hover:scale-100 scale-90">
+              <h3 class="text-xl font-bold">What are your operating hours?</h3>
+              <p class="mt-2 text-gray-700">We operate from 9 AM to 5 PM, Monday to Friday.</p>
+            </div>
+            <div class="p-4 border rounded-lg shadow-md transition transform hover:scale-100 scale-90 mt-4">
+              <h3 class="text-xl font-bold">How can I book an appointment?</h3>
+              <p class="mt-2 text-gray-700">You can book an appointment through our website or by calling our office.</p>
+            </div>
+            <div class="p-4 border rounded-lg shadow-md transition transform hover:scale-100 scale-90  mt-4">
+              <h3 class="text-xl font-bold">Do you offer telemedicine services?</h3>
+              <p class="mt-2 text-gray-700">Yes, we offer telemedicine consultations.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    <!--Footer-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, dolor?</p>
+        <p>@ 2021 Greenden.com</p>
+    </section>
+</body>
+</html>
